@@ -1,0 +1,25 @@
+{
+  "name": "mutail",
+  "version": "0.0.1",
+  "description": "Tail the world",
+  "main": "index.js",
+  "dependencies": {
+    "chokidar": "3.5.1",
+    "tail": "2.2.4",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {},
+  "bin": {
+    "mutail": "./bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitfinexcom/mutail.git"
+  },
+  "author": "Paolo Ardoino (@prdn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitfinexcom/mutail/issues"
+  },
+  "homepage": "https://github.com/bitfinexcom/mutail"
+}

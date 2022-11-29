@@ -14,7 +14,6 @@ if (!argv.f) {
 }
 
 const watcher = new FilesWatcher(argv.f, 'utf-8', {
-  useFilePrefix: true
 })
 
 watcher.on('data', data => {

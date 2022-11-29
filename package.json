@@ -4,7 +4,7 @@
   "description": "Tail the world",
   "main": "index.js",
   "dependencies": {
-    "chokidar": "3.5.1",
+    "chokidar": "3.5.3",
     "tail": "2.2.4",
     "minimist": "^1.2.5"
   },

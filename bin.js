@@ -14,6 +14,7 @@ if (!argv.f) {
 }
 
 const watcher = new FilesWatcher(argv.f, 'utf-8', {
+	watchPollInterval: +argv.poll || 250
 })
 
 watcher.on('data', data => {

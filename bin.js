@@ -30,9 +30,7 @@ if (argv.net) {
   lout.start()
 }
 
-const watcher = new FilesWatcher(argv.f, 'utf-8', {
-  watchPollInterval: +argv.poll || 250
-})
+const watcher = new FilesWatcher(argv.f, 'utf-8')
 
 watcher.on('data', data => {
   lout.push(data)

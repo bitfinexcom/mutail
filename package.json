@@ -1,6 +1,6 @@
 {
   "name": "mutail",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tail the world",
   "main": "index.js",
   "dependencies": {
